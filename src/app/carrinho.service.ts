@@ -14,12 +14,6 @@ export class CarrinhoService {
     return this.itens;
   }
   
-  // obtemItensCarrinho(){
-  //   const itensCarrinho  = JSON.parse(localStorage.getItem("carrinho") || '')
-  //   for (const iten in itensCarrinho) {
-  //     iten.quantidade
-  //   }
-  // }
 
   adicionarAoCarrinho(produto: IProdutoCarrinho){
     this.itens.push(produto);
